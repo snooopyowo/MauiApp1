@@ -1,7 +1,7 @@
-﻿using MauiAppMinhasCompras.Models;
+﻿using MauiApp1.Models;
 using SQLite;
 
-namespace MauiAppMinhasCompras.Helpers
+namespace MauiApp1.Helpers
 {
     public class SQLiteDatabaseHelper
     {
@@ -44,5 +44,5 @@ namespace MauiAppMinhasCompras.Helpers
             return _conn.QueryAsync<Produto>(sql);
         }
     }
-}  }
-}
+}  
+
